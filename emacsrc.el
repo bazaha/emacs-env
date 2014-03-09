@@ -1,7 +1,7 @@
 ;; Winter Fu Emacs configure file
 ;; Date 2014-03-09
 ;; Author Winter Fu
-;; Github
+;; Github user.email = "winterfu@gmail.com"
 
 ;; Emacs package manager, Add source into package-archives
 (require 'package)
@@ -10,3 +10,5 @@
                   ("melpa" . "http://melpa.milkbox.net/packages/")))
   (add-to-list 'package-archives source t))
 (package-initialize)
+
+;; Function Define
