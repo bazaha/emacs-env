@@ -12,3 +12,10 @@
 (package-initialize)
 
 ;; Function Define
+
+;; Misc configuration
+
+;; Key Map
+
+;; Load work mode
+
