@@ -10,3 +10,9 @@
                   ("melpa" . "http://melpa.milkbox.net/packages/")))
   (add-to-list 'package-archives source t))
 (package-initialize)
+
+;; Misc configuration
+
+;; Key Map
+
+;; Load work mode
