@@ -1,3 +1,8 @@
+;; Winter Fu Emacs configure file
+;; Date 2014-03-09
+;; Author Winter Fu
+;; Github
+
 ;; Emacs package manager, Add source into package-archives
 (require 'package)
 (dolist (source '(("marmalade" . "http://marmalade-repo.org/packages/")
