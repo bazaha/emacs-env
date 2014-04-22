@@ -17,20 +17,19 @@
 (require 'init-ace-jump-mode)
 (require 'init-expand-region)
 (require 'init-auto-complete)
-;;(require 'i)
+(require 'init-indent)
+(require 'init-auto-indent-mode)
 ;;(require 'init-mode)
 ;;(require 'itinit-flycheck)
 ;;(require 'init-jedi)
 ;;(require 'init-dired)
 ;;(require 'init-session)
 ;;(require 'init-paredit)
-;;(require 'init-indent)
 ;;(require 'init-cursor-chg)
 ;;(require 'init-one-key)
 ;;(require 'init-key)
 ;;(require 'init-generic)
 ;;(require 'init-package)
-;;(require 'init-auto-indent-mode)
 
 ;; Delay load feature
 
