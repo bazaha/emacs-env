@@ -19,6 +19,8 @@
 (require 'init-auto-complete)
 (require 'init-indent)
 (require 'init-auto-indent-mode)
+(require 'init-window-number)
+;;(require 'init-popwin)
 ;;(require 'init-mode)
 ;;(require 'itinit-flycheck)
 ;;(require 'init-jedi)
