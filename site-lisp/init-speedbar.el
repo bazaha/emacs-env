@@ -101,8 +101,8 @@
    ("n" . speedbar-forward-list)          ;下一条目
    ("p" . speedbar-backward-list)         ;上一条目
    ("u" . speedbar-forced-contract)       ;跳到上一级
-   ("F" . speedbar-files)                 ;切换文件视图
-   ("B" . speedbar-buffers)               ;切换缓存视图
+   ;("F" . speedbar-files)                 ;切换文件视图
+   ;("B" . speedbar-buffers)               ;切换缓存视图
    ("q" . sr-speedbar-toggle)             ;退出
    ;; 树操作
    ("x" . speedbar-expand-line)           ;展开当前行
@@ -123,6 +123,9 @@
    )
  speedbar-key-map
  )
+
+(global-set-key (kbd "<f11>") 'sr-speedbar-select-window)
+(global-set-key (kbd "<f12>") 'sr-speedbar-toggle)
 
 (provide 'init-speedbar)
 

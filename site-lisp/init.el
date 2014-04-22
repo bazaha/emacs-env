@@ -20,6 +20,7 @@
 (require 'init-indent)
 (require 'init-auto-indent-mode)
 (require 'init-window-number)
+(require 'init-google-c-style)
 ;;(require 'init-popwin)
 ;;(require 'init-mode)
 ;;(require 'itinit-flycheck)
