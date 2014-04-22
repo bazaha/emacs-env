@@ -86,11 +86,14 @@
 
 ;;; Code:
 
-(setq speedbar-show-unknown-files t)    ;显示文件
+(setq speedbar-show-unknown-files t)
 (setq sr-speedbar-skip-other-window-p t)
 (setq sr-speedbar-right-side nil)
-(setq speedbar-buffers-key-map nil)     ;卸载一些按键
+(setq speedbar-buffers-key-map nil)
 (setq speedbar-file-key-map nil)
+;(setq sr-speedbar-delete-windows t)
+(setq sr-speedbar-auto-refresh nil)
+
 (lazy-set-key
  '(
    ;; 导航操作
