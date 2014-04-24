@@ -4,7 +4,7 @@
 
 
 ;;;### (autoloads (sr-speedbar-open sr-speedbar-toggle) "sr-speedbar"
-;;;;;;  "sr-speedbar.el" (21334 7398 0 0))
+;;;;;;  "sr-speedbar.el" (21336 36407 0 0))
 ;;; Generated autoloads from sr-speedbar.el
 
 (autoload 'sr-speedbar-toggle "sr-speedbar" "\
@@ -24,7 +24,7 @@ Create `sr-speedbar' window.
 
 ;;;***
 
-;;;### (autoloads nil nil ("sr-speedbar-pkg.el") (21334 7398 985534
+;;;### (autoloads nil nil ("sr-speedbar-pkg.el") (21336 36407 431730
 ;;;;;;  0))
 
 ;;;***
