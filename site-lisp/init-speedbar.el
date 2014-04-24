@@ -92,7 +92,7 @@
 (setq speedbar-buffers-key-map nil)
 (setq speedbar-file-key-map nil)
 ;(setq sr-speedbar-delete-windows t)
-(setq sr-speedbar-auto-refresh nil)
+;(setq sr-speedbar-auto-refresh nil)
 
 (lazy-set-key
  '(
