@@ -4,10 +4,10 @@
 
 (dolist (hook (list
                'c-mode-hook
+               'c++-mode-hook
                'emacs-lisp-mode-hook
                'lisp-interaction-mode-hook
                'lisp-mode-hook
-               'emms-playlist-mode-hook
                'java-mode-hook
                'asm-mode-hook
                'haskell-mode-hook
@@ -24,18 +24,13 @@
                ;'apt-utils-mode-hook
                ;'tuareg-mode-hook
                ;'go-mode-hook
-               ;'qml-mode-hook
                ;'markdown-mode-hook
                ;'slime-repl-mode-hook
                'package-menu-mode-hook
                'cmake-mode-hook
-               ;'po-mode-hook
-               ;'php-mode-hook
+               'php-mode-hook
                ;'web-mode-hook
                ;'coffee-mode-hook
-               ;'sws-mode-hook
-               ;'jade-mode-hook
-               ;'enh-ruby-mode-hook
                ))
   (add-hook hook (lambda () (linum-mode 1))))
 
