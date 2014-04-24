@@ -5,7 +5,6 @@
               global-semanticdb-minor-mode
               global-semantic-idle-summary-mode
               global-semantic-highlight-func-mode
-              global-semantic-stickyfunc-mode
               global-semantic-mru-bookmark-mode
               ;; Internal Information OF The Semantic Parser
               global-semantic-show-unmatched-syntax-mode
