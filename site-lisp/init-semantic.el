@@ -7,7 +7,6 @@
               global-semantic-highlight-func-mode
               global-semantic-mru-bookmark-mode
               ;; Internal Information OF The Semantic Parser
-              global-semantic-show-unmatched-syntax-mode
               global-semantic-show-unmatched-syntax-mode))
 
 (dolist (hook (list
