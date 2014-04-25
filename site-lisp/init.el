@@ -43,6 +43,7 @@
 (idle-require 'init-backup)
 (idle-require 'init-yasnippet)
 (idle-require 'init-speedbar)
+(idle-require 'ecb)
 ;;(idle-require 'init-tempbuf)
 ;;(idle-require 'init-docview)
 ;;(idle-require 'init-eldoc)
