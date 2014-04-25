@@ -18,6 +18,12 @@
 (define-key ac-mode-map (kbd "C-c h") 'ac-last-quick-help)
 (define-key ac-mode-map (kbd "C-c H") 'ac-last-help)
 (global-set-key (kbd "C-c /") 'ac-complete-filename)
+(add-hook 'c++-mode-hook
+          (lambda ()
+            (local-set-key (kbd "C-c .") 'ac-complete-semantic)))
+(add-hook 'c-mode-hook
+          (lambda ()
+            (local-set-key (kbd "C-c .") 'ac-complete-semantic)))
 
 (setq ac-use-menu-map t)
 ;(define-key ac-menu-map "\C-n" 'ac-next)
@@ -36,11 +42,11 @@
    ac-source-filename
    ))
 
-(add-hook 'c++-mode
+(add-hook 'c++-mode-hook
 	  (lambda ()
 	    (add-to-list 'ac-sources 'ac-source-semantic)))
 
-(add-hook 'cc-mode
+(add-hook 'c-mode-hook
 	  (lambda ()
 	    (add-to-list 'ac-sources 'ac-source-semantic)))
 
