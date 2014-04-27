@@ -1,5 +1,7 @@
 ;; init-hideshow.el Initialization
 
+(require 'semantic/bovine/gcc)
+
 (setq semantic-default-submodes
             '(global-semantic-idle-scheduler-mode
               global-semanticdb-minor-mode
