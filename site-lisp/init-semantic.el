@@ -1,21 +1,17 @@
 ;; init-hideshow.el Initialization
 
-(setq semantic-default-submodes
-            '(global-semantic-idle-scheduler-mode
-              global-semanticdb-minor-mode
-              global-semantic-idle-summary-mode
-              global-semantic-highlight-func-mode
-              global-semantic-mru-bookmark-mode
-              ;; Internal Information OF The Semantic Parser
-              global-semantic-show-unmatched-syntax-mode))
+(add-to-list 'semantic-default-submodes 'global-semantic-idle-scheduler-mode)
+(add-to-list 'semantic-default-submodes 'global-semanticdb-minor-mode)
+(add-to-list 'semantic-default-submodes 'global-semantic-idle-summary-mode)
+(add-to-list 'semantic-default-submodes 'global-semantic-mru-bookmark-mode)
+(add-to-list 'semantic-default-submodes 'global-semantic-show-unmatched-syntax-mode)
+;(add-to-list 'semantic-default-submodes 'global-semantic-stickyfunc-mode)
+;(add-to-list 'semantic-default-submodes 'global-cedet-m3-minor-mode)
+;(add-to-list 'semantic-default-submodes 'global-semantic-highlight-func-mode)
 
-(dolist (hook (list
-               'c++-mode-hook
-               'c-mode-hook
-               'java-mode-hook
-               'perl-mode-hook
-               'emacs-lisp-mode-hook
-               'lisp-mode-hook))
-  (add-hook hook (lambda() (semantic-mode 1))))
+(semantic-mode 1)
+
+;(semanticdb-enable-gnu-global-databases 'c-mode t)
+;(semanticdb-enable-gnu-global-databases 'c++-mode t)
 
 (provide 'init-semantic)
