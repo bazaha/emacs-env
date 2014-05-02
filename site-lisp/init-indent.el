@@ -87,14 +87,14 @@
 ;;; ### Indent ###
 ;;; --- 缩进设置
 (setq-default indent-tabs-mode t)       ;默认用Tab模式
-(setq default-tab-width 4)              ;设置TAB默认的宽度
+(setq-default tab-width 4)              ;设置TAB默认的宽度
 (dolist (hook (list                     ;设置用空格替代TAB的模式
                'emacs-lisp-mode-hook
                'lisp-mode-hook
                'lisp-interaction-mode-hook
                'scheme-mode-hook
-               'c-mode-hook
-               'c++-mode-hook
+               ;'c-mode-hook
+               ;'c++-mode-hook
                'java-mode-hook
                'haskell-mode-hook
                'asm-mode-hook
