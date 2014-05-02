@@ -93,7 +93,6 @@
                    (require 'auto-indent-mode)
                    (auto-indent-mode-on))))
 
-
 (provide 'init-auto-indent-mode)
 
 ;;; init-auto-indent-mode.el ends here
