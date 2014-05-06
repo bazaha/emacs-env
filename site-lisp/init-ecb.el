@@ -17,6 +17,8 @@
  ;; If there is more than one, they won't work right.
  )
 
+(setq ecb-tip-of-the-day nil)
+
 (provide 'init-ecb)
 
 ;; end of ecb initialization
