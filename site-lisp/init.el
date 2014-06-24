@@ -3,11 +3,11 @@
 ;(require 'init-startup)
 (require 'lazy-set-key)
 ;(require 'basic-toolkit)
-(require 'redo+)
 (require 'idle-require)
 
 ;; Init package and mode
 
+(require 'init-redo)
 (require 'init-auto-install)
 (require 'init-auto-save)
 (require 'init-linum)
