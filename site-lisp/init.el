@@ -23,6 +23,7 @@
 (require 'init-hideshow)
 (require 'init-ido)
 (require 'init-window-number)
+(require 'init-multiple-cursors)
 ;(require 'init-popwin)
 ;(require 'init-flycheck)
 ;(require 'init-jedi)
@@ -39,6 +40,7 @@
 
 ;(idle-require 'pretty-lambdada)
 ;(idle-require 'browse-kill-ring)
+(idle-require 'init-hl-symbol)
 (idle-require 'init-backup)
 (idle-require 'init-yasnippet)
 (idle-require 'init-speedbar)
