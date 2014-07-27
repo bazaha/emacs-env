@@ -5,7 +5,7 @@
 ;;; Require
 
 (require 'auto-complete-config)
-(require 'auto-complete-clang-extension)
+;(require 'auto-complete-clang-extension)
 
 ;;; Code:
 ;; defaut dict path
