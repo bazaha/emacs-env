@@ -1,10 +1,10 @@
 ;;; windresize-autoloads.el --- automatically extracted autoloads
 ;;
 ;;; Code:
-
+(add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads (windresize) "windresize" "windresize.el" (21335
-;;;;;;  52568 0 0))
+;;;### (autoloads nil "windresize" "windresize.el" (21598 18365 0
+;;;;;;  0))
 ;;; Generated autoloads from windresize.el
 
 (autoload 'windresize "windresize" "\
@@ -45,16 +45,9 @@ will set the new window configuration and exit.
 
 ;;;***
 
-;;;### (autoloads nil nil ("windresize-pkg.el") (21335 52568 297494
-;;;;;;  0))
-
-;;;***
-
-(provide 'windresize-autoloads)
 ;; Local Variables:
 ;; version-control: never
 ;; no-byte-compile: t
 ;; no-update-autoloads: t
-;; coding: utf-8
 ;; End:
 ;;; windresize-autoloads.el ends here

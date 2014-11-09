@@ -74,11 +74,11 @@
 ;;; Require
 
 (require 'yasnippet)
-(require 'init-git)
+;(require 'init-git)
 
 ;;; Code:
 
-;(add-to-list `yas-snippet-dirs "~/.emacs.d/packages/yasnippet/snippets/")
+;;(add-to-list `yas-snippet-dirs "~/.emacs.d/snippets/")
 (yas-global-mode 1)
 
 ;; Disable yasnippet mode on some mode.

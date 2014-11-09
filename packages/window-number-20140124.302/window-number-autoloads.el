@@ -1,18 +1,16 @@
 ;;; window-number-autoloads.el --- automatically extracted autoloads
 ;;
 ;;; Code:
-
+(add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil nil ("window-number-pkg.el" "window-number.el")
-;;;;;;  (21334 19483 828263 0))
+;;;### (autoloads nil nil ("window-number.el") (21598 47916 942599
+;;;;;;  0))
 
 ;;;***
 
-(provide 'window-number-autoloads)
 ;; Local Variables:
 ;; version-control: never
 ;; no-byte-compile: t
 ;; no-update-autoloads: t
-;; coding: utf-8
 ;; End:
 ;;; window-number-autoloads.el ends here
