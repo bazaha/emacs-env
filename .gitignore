@@ -8,3 +8,4 @@ packages/archives/
 packages/*.txt
 eshell/
 *.elc
+ido.last

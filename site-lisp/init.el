@@ -4,7 +4,7 @@
 (require 'lazy-set-key)
 ;(require 'basic-toolkit)
 (require 'init-mode)
-
+(require 'init-git)
 ;; Init package and mode
 (require 'init-undo-tree)
 ;;(require 'init-auto-install)
@@ -13,6 +13,7 @@
 (require 'init-autopair)
 (require 'init-highlight-parentheses)
 (require 'init-rainbow-delimiters)
+(require 'init-theme)
 (require 'init-ace-jump-mode)
 (require 'init-auto-complete)
 (require 'init-indent)

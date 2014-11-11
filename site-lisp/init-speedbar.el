@@ -82,6 +82,9 @@
 ;;; Require
 
 (require 'speedbar)
+;; Fix warning for helm not installed
+(defvar helm-alive-p nil)
+
 (require 'sr-speedbar)
 
 ;;; Code:
