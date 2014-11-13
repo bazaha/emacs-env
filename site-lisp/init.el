@@ -2,12 +2,12 @@
 
 (require 'init-startup)
 (require 'lazy-set-key)
-;(require 'basic-toolkit)
-(require 'init-mode)
 (require 'init-git)
-;; Init package and mode
+;; Init major mode
+(require 'init-c-mode)
+(require 'init-web-mode)
+;; Init packages configuration
 (require 'init-undo-tree)
-;;(require 'init-auto-install)
 (require 'init-auto-save)
 (require 'init-linum)
 (require 'init-autopair)
@@ -22,7 +22,6 @@
 (require 'init-hideshow)
 (require 'init-ido)
 (require 'init-window-number)
-(require 'init-bazaha-c-style)
 (require 'init-yasnippet)
 (require 'init-backup)
 (require 'init-speedbar)

@@ -63,7 +63,7 @@
 (autoload 'markdown-mode "markdown-mode")
 (autoload 'po-mode "po-mode")
 (autoload 'php-mode "php-mode")
-(autoload 'web-mode "init-web-mode")
+;;(autoload 'web-mode "init-web-mode")
 (autoload 'coffee-mode "init-coffee-mode")
 (autoload 'sws-mode "sws-mode")
 (autoload 'jade-mode "jade-mode")
