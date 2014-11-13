@@ -97,6 +97,16 @@ Suitable for inclusion in `c-offsets-alist'."
                         (member-init-intro . ++)
                         (inher-intro . ++)
                         (comment-intro . 0)
+						(arglist-cont
+						 .
+						 (c-lineupq-arglist-operators
+						  c-lineup-gcc-asm-reg
+						  0))
+						(arglist-cont-nonempty
+						 .
+						 (c-lineup-arglist-operators
+						  c-lineup-gcc-asm-reg
+						  c-lineup-arglist))
                         (arglist-close . c-lineup-arglist)
                         (topmost-intro . 0)
 						(inclass . +)
