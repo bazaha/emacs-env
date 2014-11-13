@@ -44,7 +44,7 @@ Suitable for inclusion in `c-offsets-alist'."
     (cond
      ;; We are making a reasonable assumption that if there is a control
      ;; structure to indent past, it has to be at the beginning of the line.
-     ((looking-at "\\(\\(if\\|for\\|while\\)\\s *(\\)")
+     ((looking-at "\\(\\(if\\|for\\|while\\|do\\)\\s *(\\)")
       (goto-char (match-end 1)))
      ;; For constructor initializer lists, the reference point for line-up is
      ;; the token after the initial colon.
@@ -92,13 +92,14 @@ Suitable for inclusion in `c-offsets-alist'."
                        defun-close-semi
                        list-close-comma
                        scope-operator))
-    (c-offsets-alist . ((arglist-intro bazaha-c-lineup-expression-plus-4)
+    (c-offsets-alist . ((arglist-intro . ++) ;; bazaha-c-lineup-expression-plus-4
                         (func-decl-cont . ++)
                         (member-init-intro . ++)
                         (inher-intro . ++)
                         (comment-intro . 0)
                         (arglist-close . c-lineup-arglist)
                         (topmost-intro . 0)
+						(inclass . +)
                         (block-open . 0)
                         (inline-open . 0)
                         (substatement-open . 0)
@@ -109,11 +110,11 @@ Suitable for inclusion in `c-offsets-alist'."
                           ,(when (fboundp 'c-lineup-assignments)
                              'c-lineup-assignments)
                           ++))
-                        (label . /)
-                        (case-label . +)
+                        (label . 0)
+                        (case-label . 0)
                         (statement-case-open . +)
                         (statement-case-intro . +) ; case w/o {
-                        (access-label . /)
+                        (access-label . -)
                         (innamespace . 0))))
   "bazaha C/C++ Programming Style.")
 
