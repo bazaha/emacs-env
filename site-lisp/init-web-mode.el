@@ -37,7 +37,7 @@
   ;; Syntax Highlighting
   ;;(set-face-attribute 'web-mode-css-rule-face nil :foreground "Pink3")
   ;; Shortcuts
-  (define-key web-mode-map (kbd "C-n") 'web-mode-tag-match)
+  (define-key web-mode-map (kbd "C-c n") 'web-mode-tag-match)
   ;; Snippets
   (setq web-mode-extra-snippets
         '(("erb" . (("name" . ("beg" . "end"))))
