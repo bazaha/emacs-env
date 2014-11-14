@@ -92,38 +92,24 @@ Suitable for inclusion in `c-offsets-alist'."
                        defun-close-semi
                        list-close-comma
                        scope-operator))
-    (c-offsets-alist . ((arglist-intro . ++) ;; bazaha-c-lineup-expression-plus-4
+    (c-offsets-alist . ((arglist-intro . ++)
                         (func-decl-cont . ++)
                         (member-init-intro . ++)
                         (inher-intro . ++)
                         (comment-intro . 0)
-						(arglist-cont
-						 .
-						 (c-lineupq-arglist-operators
-						  c-lineup-gcc-asm-reg
-						  0))
-						(arglist-cont-nonempty
-						 .
-						 (c-lineup-arglist-operators
-						  c-lineup-gcc-asm-reg
-						  c-lineup-arglist))
-                        (arglist-close . c-lineup-arglist)
+						(arglist-cont-nonempty . ++)
+						(arglist-cont . ++)
+					    (arglist-close . c-lineup-arglist)
                         (topmost-intro . 0)
 						(inclass . +)
                         (block-open . 0)
                         (inline-open . 0)
                         (substatement-open . 0)
-                        (statement-cont
-                         .
-                         (,(when (fboundp 'c-no-indent-after-java-annotations)
-                             'c-no-indent-after-java-annotations)
-                          ,(when (fboundp 'c-lineup-assignments)
-                             'c-lineup-assignments)
-                          ++))
+                        (statement-cont . ++)
                         (label . 0)
                         (case-label . 0)
                         (statement-case-open . +)
-                        (statement-case-intro . +) ; case w/o {
+                        (statement-case-intro . +)
                         (access-label . -)
                         (innamespace . 0))))
   "bazaha C/C++ Programming Style.")
