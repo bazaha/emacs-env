@@ -15,6 +15,7 @@
   (set-face-attribute 'rainbow-delimiters-depth-9-face   nil :foreground "#EFFFEE")
   (set-face-attribute 'rainbow-delimiters-unmatched-face nil :foreground "#AA0000"))
 
-(eval-after-load "rainbow-delimiters" '(assemblage-rainbow-delim-set-face))
+(if (display-graphic-p)
+	(eval-after-load "rainbow-delimiters" '(assemblage-rainbow-delim-set-face)))
 
 (provide 'init-rainbow-delimiters)

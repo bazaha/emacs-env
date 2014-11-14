@@ -6,7 +6,7 @@
 ;; Graphic theme
 (if (display-graphic-p)
 	(add-hook 'after-init-hook 'load-cyberpunk)
-  (add-hook 'after-init-hook 'load-darcula)
+  (add-hook 'after-init-hook 'load-cyberpunk)
   )
 
 (defun load-cyberpunk ()
