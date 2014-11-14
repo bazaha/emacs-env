@@ -25,12 +25,6 @@
 ;;(semanticdb-enable-gnu-global-databases 'c-mode t)
 ;;(semanticdb-enable-gnu-global-databases 'c++-mode t)
 
-(custom-set-faces
- ;; custom semantic highlighting face
- '(semantic-highlight-func-current-tag-face
-   (display-graphic-p)
-   (((class color) (background dark)) (:background "gray20"))
-   (((class color) (background light)) (:background "gray90"))))
 (require 'srecode)
 
 (provide 'init-semantic)
