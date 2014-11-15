@@ -28,4 +28,3 @@
 (require 'srecode)
 
 (provide 'init-semantic)
-
