@@ -23,6 +23,7 @@
 (require 'init-ido)
 (require 'init-window-number)
 (require 'init-yasnippet)
+(require 'init-django)
 (require 'init-backup)
 (require 'init-speedbar)
 (require 'init-backup)
