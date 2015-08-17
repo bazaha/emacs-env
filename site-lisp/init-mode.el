@@ -54,6 +54,7 @@
                     ("\\.rb$" . enh-ruby-mode)
                     ("\\.h" . c++-mode)
                     ("\\.hpp" . c++-mode)
+                    ("\\.cu" . cuda-mode)
                     ))
   (add-to-list 'auto-mode-alist elt-cons))
 (add-to-list 'interpreter-mode-alist '("coffee" . coffee-mode))
